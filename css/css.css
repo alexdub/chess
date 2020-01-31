@@ -1,0 +1,45 @@
+table, tr {
+    border: solid 1px #000;
+    border-collapse: collapse;
+    
+    
+}
+
+th {
+    width: 30px;
+    height: 30px;
+    border: solid 1px #000;
+}
+
+
+tr:nth-of-type(even) th:nth-of-type(odd) {
+    background-color: #000;
+}
+
+tr:nth-of-type(odd) th:nth-of-type(even) {
+    background-color: #000;
+}
+
+
+
+tr:first-of-type th:nth-of-type(even),tr:first-of-type th:nth-of-type(odd)  {
+    background-color: #90ee90;
+    height:10px;
+}
+
+
+tr:last-of-type th:nth-of-type(even),tr:last-of-type th:nth-of-type(odd)  {
+    background-color: #90ee90;
+    height:10px;
+}
+
+tr:nth-of-type(even) th:first-of-type ,tr:nth-of-type(odd) th:first-of-type   {
+    background-color: #90ee90;
+    width:10px;
+}
+
+
+ tr:nth-of-type(even) th:last-of-type,tr:nth-of-type(odd) th:last-of-type  {
+    background-color: #90ee90;
+    width:10px;
+}
